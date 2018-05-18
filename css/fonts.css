@@ -1,0 +1,12 @@
+html, body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    font-size: 1em;
+}
+
+#reset-btn, #submit-btn{
+    font-size: 1em;
+    font-weight: bold;
+}

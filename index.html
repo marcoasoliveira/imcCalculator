@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <h1>IMC<small>calculator</small></h1>
+        </header>
+
+        <div id="form">
+            <form onsubmit="calc.exibeImc(event)" method="POST">
+                
+                <div id="input">
+                    <label for="inputPeso">Peso</label>
+                    <input type="text" name="inputPeso" id="inputPeso" placeholder="00.00" required>
+                </div>
+                <div id="input">
+                    <label for="inputPeso">Altura</label>
+                    <input type="text" name="inputAlura" id="inputAltura" placeholder="00.00" required>    
+                </div>
+                <div id="buttons">
+                    <button type="reset" id="reset-btn">Apagar</button>
+                    <button id="submit-btn">Calcular</button>
+                </div>
+        
+            </form>
+
+            <div id="resultado">
+                <h2>Resultado:</h2>
+                <p>Seu <strong>IMC</strong> é:</p>
+                <div id="resultado_valor">
+                    
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/CalculaIMC.js"></script>
+    <script>
+        let calc = new CalculaIMC()
+    </script>
+</body>
+</html>
