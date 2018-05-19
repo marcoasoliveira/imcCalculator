@@ -16,7 +16,7 @@
         </header>
 
         <div id="form">
-            <form onsubmit="calc.exibeImc(event)" method="POST">
+            <form onsubmit="calc.calcula(event)" method="POST">
                 
                 <div id="input">
                     <label for="inputPeso">Peso</label>
@@ -45,6 +45,7 @@
     </div>
 
     <script src="js/CalculaIMC.js"></script>
+    <script src="js/views/ExibeResultado.js"></script>
     <script>
         let calc = new CalculaIMC()
     </script>
