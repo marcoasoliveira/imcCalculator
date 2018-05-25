@@ -1,4 +1,4 @@
-#Tutorial de Instalação e Utilização do Hexo
+# Tutorial de Instalação e Utilização do Hexo
 
 - _Fonte de estudo_: [Giraffe Academy](https://www.youtube.com/watch?v=Kt7u5kr_P5o&list=PLLAZ4kZ9dFpOMJR6D25ishrSedvsguVSm)
 
