@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To do List - praticando javascript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>To do List</h1>
+        <p>Praticando javascript</p>
+    </header>
+
+    <div class="container">
+
+        <section class="form">
+
+            <h2>Novo To do</h2>
+
+            <form onsubmit="adiciona(event)" method="POST">
+                
+                <label for="tarefa">Tarefa:</label>
+                <input type="text" name="tarefa" id="tarefa">
+
+                <label for="prioridade">Prioridade:</label>
+                <select name="prioridade" id="prioridade">
+                    <option value="0">Baixa</option>
+                    <option value="1">Normal</option>
+                    <option value="2">Alta</option>
+                </select>
+               
+                <div>
+                        <button type="reset">Apagar</button>
+                        <button type="submit">Enviar</button>
+                </div>
+            </form>
+
+        </section>
+
+        <section class="lista">
+
+            <h2>Lista de Tarefas</h2>
+
+            <div class="listaTarefas">
+
+            </div>
+
+        </section>
+
+    </div>
+    
+    <script src="js/main.js"></script>
+    <script src="js/listaToDo.js"></script>
+
+</body>
+</html>
